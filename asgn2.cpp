@@ -10,7 +10,13 @@ Assignment 2
 #include"rapidxml_utils.hpp"
 #include"rapidxml_print.hpp"
 
+
 using namespace rapidxml;
+
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 #define out std::cout
 #define in std::cin
